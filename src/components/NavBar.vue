@@ -19,6 +19,9 @@
                     <li class="nav-item">
                         <router-link to="/about">About</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link to="/testimonial">Testimonial</router-link>
+                    </li>
                   </ul>
                   <form class="d-flex mt-3" role="search">
                   </form>
