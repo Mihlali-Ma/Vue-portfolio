@@ -20,14 +20,13 @@ export default createStore({
   actions: {
     async fetchProjects(context){
       let response = await fetch(URL)
-      console.log(response)
-      let projects = await response.json()
+      let {projects} = await response.json()
       context.commit('setProjects', projects)
     },
 
     async fetchTestimonials(context){
       let response = await fetch(URL)
-      let Testimonials = await response.json()
+      let {Testimonials} = await response.json()
       context.commit('setTestimonial',Testimonials)
       
     }
