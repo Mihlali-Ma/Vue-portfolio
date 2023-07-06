@@ -5,7 +5,10 @@ export default createStore({
   state: {
     projects:null,
     Testimonials:null,
-    Resume:null
+    Resume:null,
+    Volunteer:null,
+    Education:null
+
   },
   getters: {
   },
@@ -15,6 +18,12 @@ export default createStore({
     },
     setTestimonial(state,Testimonials){
       state.Testimonials=Testimonials
+    },
+    setVolunteer(state,Volunteer){
+      state.Volunteer=Volunteer
+    },
+    setEducation(state,Education){
+      state.Education=Education
     }
   },
   actions: {
@@ -28,6 +37,18 @@ export default createStore({
       let response = await fetch(URL)
       let {Testimonials} = await response.json()
       context.commit('setTestimonial',Testimonials)
+      
+    },
+    async fetchVolunteer(context){
+      let response = await fetch(URL)
+      let {Volunteer} = await response.json()
+      context.commit('setVolunteer',Volunteer)
+      
+    },
+    async fetchEducation(context){
+      let response = await fetch(URL)
+      let {Education} = await response.json()
+      context.commit('setEducation',Education)
       
     }
   },

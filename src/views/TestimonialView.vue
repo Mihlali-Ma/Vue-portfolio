@@ -2,11 +2,7 @@
   <div>
     <NavBar />
     <div class="row">
-      <div
-        class="col"
-        v-for="Testimonial in Testimonials"
-        :key="Testimonial.id"
-      >
+      <div class="col" v-for="Testimonial in Testimonials" :key="Testimonial.id">
         <div class="My-Card">
           <img :src="Testimonial.image" />
           <div class="info">
@@ -35,7 +31,7 @@ export default {
   },
   mounted() {
     this.$store.dispatch("fetchTestimonials");
-  },
+  }
 };
 </script>
 <style scoped>
