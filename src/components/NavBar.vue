@@ -22,6 +22,9 @@
                     <li class="nav-item">
                         <router-link to="/testimonial">Testimonial</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link to="/contact">Contact</router-link>
+                    </li>
                   </ul>
                   <form class="d-flex mt-3" role="search">
                   </form>
