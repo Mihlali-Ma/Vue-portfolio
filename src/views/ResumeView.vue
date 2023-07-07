@@ -18,8 +18,15 @@
                     <p style="color:#fff">City: Cape Town</p>
                     <p style="color:#fff">Age: 20</p>
                 </div>
-                
-
+                <div id="line_through"></div>
+                <div class="body">
+                    <div class="lang">
+                        <div class="outside"> <div class="inside">
+                            <div class="language">Isixhosa</div>
+                        </div></div>
+                       
+                    </div>
+                </div>
             </div>
             <div class="col-9" id="colummn_space">
                 <!--Image-->
@@ -42,10 +49,10 @@
                     </div>
                 </div>
                  <!--WORK/Volunteer-->
-        <div class="head">
+            <div class="head">
             <h3 style="color:#fff">Work and volunteer Expirience:</h3>
-        </div>
-        <div class="row">
+            </div>
+            <div class="row">
             <div class="col md-8 mb-3" v-for="option in Volunteer" :key="option.id">
                 <div class="text-container">
                     <div class="heading">
@@ -59,31 +66,42 @@
                 </div>
                 </div>
                 </div>
+                <!--Skills-->
+                <h3 style="color:#fff;">Skills</h3>
+                <div class="row">
+                    <div class="col" v-for="item in Skills" :key="item.id">
+                        <img class="images" :src="item.img">
+                    </div>
+                </div>
+                
             </div>
         </div>
-
-       
-        <!--Skills-->
-        
-       
+        <!--stuff-->
+        <my-footer/>
     </div>
+    
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import MyFooter from '@/components/MyFooter.vue';
     export default {
-  components: { NavBar },
+  components: { NavBar, MyFooter },
   computed: {
     Volunteer() {
       return this.$store.state.Volunteer;
     },
     Education(){
         return this.$store.state.Education;
+    },
+    Skills(){
+        return this.$store.state.Skills;
     }
   },
   mounted() {
     this.$store.dispatch("fetchVolunteer");
     this.$store.dispatch("fetchEducation");
+    this.$store.dispatch("fetchSkills");
   },
   
         
@@ -102,6 +120,9 @@ import NavBar from '@/components/NavBar.vue'
     }
     .heading{
         margin-bottom: 0%;
+    }
+    .images{
+        width: 5rem;
     }
     .heading h5{
         color:yellow;
@@ -188,4 +209,28 @@ import NavBar from '@/components/NavBar.vue'
         text-align: left;
         padding-left: 1rem;
     }
+    .lang{
+        width: 80px;
+        height: 80px;
+        position: relative;
+    }
+    .outside{
+        height: 80px;
+        width: 80px;
+        padding: 20px;
+        border-radius: 50%;
+        box-shadow: 6px 6px 10px -1px black;
+    }
+    .inside{
+        height:40px;
+        width:40px;
+        border-radius: 50%;
+        /*border: solid 1px yellow;*/
+        box-shadow: inset 4px 4px 6px -1px black,
+        inset -4px -4px 6px -1 grey,
+        -0.5px -0.5px 0px white,
+        0.5px 0.5px 0px black,
+        0px 12px 10px -10px black ;
+    }
+   
 </style>

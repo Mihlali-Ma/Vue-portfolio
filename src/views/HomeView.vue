@@ -9,8 +9,7 @@
     </div>
     
     <MyWork/>
-
-
+    <my-footer/>
   </div>
 </template>
 
@@ -18,13 +17,15 @@
 // @ is an alias to /src
 import NavBar from '@/components/NavBar';
 import MyWork from '@/components/MyWork.vue';
+import MyFooter from '@/components/MyFooter.vue';
 
 
 export default {
   name: 'HomeView',
   components: {
     NavBar,
-    MyWork
+    MyWork,
+    MyFooter
   }
 }
 </script>

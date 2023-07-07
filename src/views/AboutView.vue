@@ -7,16 +7,17 @@
       <p class="text">
         Welcome to my portfolio website! I'm a passionate Aspiring Full-Stack Software, dedicated to showcasing my skills and creativity in the Tech industry. With a collection of my best work, I strive to deliver high-quality solutions that exceed client expectations. Let's connect and create something remarkable together!</p>
     </div>
-    
+    <my-footer/>
   </div>
 </template>
 
 <script>
+import MyFooter from '@/components/MyFooter.vue';
 
   import NavBar from '../components/NavBar';
 
   export default {
-    components: { NavBar}
+    components: { NavBar,MyFooter}
 }
 </script>
 
