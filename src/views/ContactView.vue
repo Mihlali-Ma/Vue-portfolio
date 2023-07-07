@@ -5,12 +5,20 @@
             <img src="https://i.postimg.cc/02rBjwYd/contact-us-concept-free-photo-removebg-preview.png" class="img-fluid" alt="">
             <form class="forms" action="https://formspree.io/f/xzblbplr" method="POST">
                 <div>
-                    <input class="input" type="text" placeholder="Name" id="name">
-                    <input class="input" type="text" placeholder="Surname" id="surname">
+                    <input class="input" type="text" placeholder="Name" id="name" required
+                    oninvalid="this.setCustomValidity('Please fill in missing text')"
+                    oninput="this.setCustomValidity('')">
+                    <input class="input" type="text" placeholder="Surname" id="surname" required
+                    oninvalid="this.setCustomValidity('Please fill in missing text')"
+                    oninput="this.setCustomValidity('')">
                 </div>
                 <div>
-                    <input class="input" type="text" placeholder="Cellphone">
-                    <input class="input" type="email" name="email" placeholder="email" id="">
+                    <input class="input" type="text" placeholder="Cellphone" maxlength="10" required
+                    oninvalid="this.setCustomValidity('Please Enter Your Number')"
+                    oninput="this.setCustomValidity('')">
+                    <input class="input" type="email" name="email" placeholder="email" id="" required
+                    oninvalid="this.setCustomValidity('Please fill in missing text')"
+                    oninput="this.setCustomValidity('')">
                 </div>
                 <div>
                     <button id="btn" type="submit">Submit</button>
