@@ -3,7 +3,7 @@
         <br>
         <H2 id="heading">My Work</H2>
         <div class="row">
-            <div class="col-4 md-8" v-for="project in projects" :key="project.name">
+            <div class="col" v-for="project in projects" :key="project.name">
                 <div class="card" style="width: 18rem;">
                     <img :src="project.Image" class="card-img-top" :alt="project.name">
                     <div class="card-body">
@@ -53,5 +53,8 @@
     }
     .col h5,p{
         color: #fff;
+    }
+    .col{
+        margin-bottom: 5rem;
     }
 </style>

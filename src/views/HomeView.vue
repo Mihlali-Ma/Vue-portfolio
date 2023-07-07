@@ -3,7 +3,7 @@
     <NavBar/>
     <div class="container-fluid">
       <p class="text-1">Hello,</p>
-      <H2 class="heading">I'M Mihlali Matrose</H2>
+      <H2 class="heading animate__heartBeat">I'M Mihlali Matrose</H2>
       <p class="text-2">Aspiring Web Developer</p>
       <img src="https://i.postimg.cc/sDnnB0Yn/id-removebg-preview.png" class="img-fluid">
     </div>

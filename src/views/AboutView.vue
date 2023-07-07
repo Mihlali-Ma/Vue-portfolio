@@ -6,6 +6,21 @@
       <h4 id="name">Mihlali Matrose</h4>
       <p class="text">
         Welcome to my portfolio website! I'm a passionate Aspiring Full-Stack Software, dedicated to showcasing my skills and creativity in the Tech industry. With a collection of my best work, I strive to deliver high-quality solutions that exceed client expectations. Let's connect and create something remarkable together!</p>
+        <h3 style="color:white">My Hobbies:</h3>
+        <div class="row">
+          <div class="col">
+            <div class="box"><img src="https://i.postimg.cc/Hn6HPJM5/manga-neon-signage.jpg" alt="" ></div>
+          </div>
+          <div class="col">
+            <div class="box"><img src="https://i.postimg.cc/kGR4PgXH/Mercedes-F1-i-Racing.png" alt="" ></div>
+          </div>
+          <div class="col">
+            <div class="box"><img src="https://i.postimg.cc/C1TYnsFc/gaming-banner-for-games-with-glitch-effect-neon-light-on-text-illustration-design-free-vector.jpg" alt="" ></div>
+          </div>
+          <div class="col">
+            <div class="box"><img src="https://i.postimg.cc/8zWdDTnx/1004819.jpg" alt="" ></div>
+          </div>
+        </div>
     </div>
     <my-footer/>
   </div>
@@ -45,5 +60,11 @@ import MyFooter from '@/components/MyFooter.vue';
     margin-top: 5rem;
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box{
+    margin-bottom: 5rem;
+  }
+  .box img{
+    width: 15rem;
   }
 </style>
