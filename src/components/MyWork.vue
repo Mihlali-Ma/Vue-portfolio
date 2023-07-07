@@ -3,6 +3,7 @@
         <br>
         <H2 id="heading">My Work</H2>
         <div class="row">
+            
             <div class="col" v-for="project in projects" :key="project.name">
                 <div class="card" style="width: 18rem;">
                     <img :src="project.Image" class="card-img-top" :alt="project.name">
@@ -34,9 +35,13 @@
 </script>
 
 <style scoped>
+
     .row{
         align-content: center;
-        padding: 0rem;
+        justify-content: center;
+        width: 80%;
+        margin-left:11% ;
+        
     }
     .col-4{
         margin-bottom: 5rem;
@@ -56,5 +61,24 @@
     }
     .col{
         margin-bottom: 5rem;
+    }
+    .body{
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        
+    }
+    
+    @media (width<375px){
+        .row{
+            width: fit-content;
+            margin-left: 2%;
+            margin-right:4% ;
+        }
+        @media (width<325px){
+            .row{
+                width: fit-content;
+            }
+        }
     }
 </style>

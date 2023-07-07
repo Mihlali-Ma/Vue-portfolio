@@ -1,11 +1,13 @@
 <template>
   <div class="home">
     <NavBar/>
+   
     <div class="container-fluid">
+     <!-- <img src="https://i.postimg.cc/sDnnB0Yn/id-removebg-preview.png" class="img-fluid">-->
       <p class="text-1">Hello,</p>
       <H2 class="heading animate__heartBeat">I'M Mihlali Matrose</H2>
       <p class="text-2">Aspiring Web Developer</p>
-      <img src="https://i.postimg.cc/sDnnB0Yn/id-removebg-preview.png" class="img-fluid">
+     
     </div>
     
     <MyWork/>
@@ -38,7 +40,7 @@ export default {
     margin-top: -4rem
   }
   .img-fluid{
-    width: 20rem;
+    width: 5rem;
     
   }
   .text-1{
@@ -46,10 +48,10 @@ export default {
   }
   .text-2{
     color: white;
-    margin-top: -20px;
+   /* margin-top: -20px;*/
   }
   .heading{
     color:#eab67e;
-    margin-top:-40px ;
+   /* margin-top:-40px ;*/
   }
 </style>

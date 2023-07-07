@@ -3,7 +3,7 @@
         <nav-bar/>
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-2" id="colummn_space">
+            <div class="col-2" id="colummn_space-1">
                 <div class="top">
                     <img src="https://i.postimg.cc/x1Z91FW2/id.jpg" class="id" alt="">
                     <p class="name">Mihlali Matrose</p>
@@ -232,5 +232,22 @@ import MyFooter from '@/components/MyFooter.vue';
         0.5px 0.5px 0px black,
         0px 12px 10px -10px black ;
     }
-   
+   @media (width<600px){
+    #colummn_space-1{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+   }
+   @media (width<370px){
+    
+    col-9{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right:5% ;
+    }
+
+   }
 </style>
