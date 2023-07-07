@@ -12,6 +12,7 @@
         </div>
       </div>
     </div>
+    <my-footer/>
   </div>
 </template>
 
@@ -19,10 +20,10 @@
 
 
 import NavBar from "@/components/NavBar";
-
+import MyFooter from "@/components/MyFooter.vue";
 export default {
   components: {
-    NavBar,
+    NavBar,MyFooter
   },
   computed: {
     Testimonials() {
