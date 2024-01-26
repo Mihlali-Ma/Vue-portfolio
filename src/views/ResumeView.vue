@@ -30,7 +30,7 @@
             </div>
             <div class="col-9" id="colummn_space">
                 <!--Image-->
-                <img src="https://contentstatic.techgig.com/photo/91625283/4-coding-habits-to-improve-your-efficiency-in-competitive-programming.jpg?529153" class="img" alt="...">
+                <img src="https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz" class="img" alt="...">
                 <!--Education-->
                 <div class="head">
                     <h3 style="color:#fff">Education:</h3>
