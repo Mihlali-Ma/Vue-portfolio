@@ -33,7 +33,7 @@ export default {
 </script>
 <style scoped>
   .container-fluid{
-    background-image: url('https://i.postimg.cc/nLbnstDx/photo-1477346611705-65d1883cee1e.jpg');
+    background-image: url('https://woz-u.com/wp-content/uploads/2022/06/Evolution-of-Coding-scaled.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
