@@ -30,7 +30,7 @@
             </div>
             <div class="col-9" id="colummn_space">
                 <!--Image-->
-                <img src="https://i.postimg.cc/tT74fJ4b/desktop-wallpaper-abstract-forest-forest-art.jpg" class="img" alt="...">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.inc.com%2Flarry-kim%2F9-places-you-can-learn-how-to-code-for-free.html&psig=AOvVaw1dsuNMXUIsuE6-hsGxSMNx&ust=1706342198892000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDIgZfK-oMDFQAAAAAdAAAAABAJ" class="img" alt="...">
                 <!--Education-->
                 <div class="head">
                     <h3 style="color:#fff">Education:</h3>
