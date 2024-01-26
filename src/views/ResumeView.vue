@@ -5,7 +5,7 @@
             <div class="col-1"></div>
             <div class="col-2" id="colummn_space-1">
                 <div class="top">
-                    <img src="https://i.postimg.cc/x1Z91FW2/id.jpg" class="id" alt="">
+                    <img src="https://ca.slack-edge.com/T02LW4RMXJQ-U052DHF108Y-af91acee9d67-512" class="id" alt="">
                     <p class="name">Mihlali Matrose</p>
                     <p class="me">Aspiring Full-Stack Web Developer</p>
                     <br>
