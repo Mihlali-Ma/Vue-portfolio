@@ -2,7 +2,7 @@
     <div>
         <nav-bar/>
         <div class="form">
-            <img src="https://i.postimg.cc/02rBjwYd/contact-us-concept-free-photo-removebg-preview.png" class="img-fluid" alt="">
+            <img src="https://st2.depositphotos.com/1029756/7977/i/450/depositphotos_79773952-stock-photo-contact-me-text-write-on.jpg" class="img-fluid" alt="">
             <form class="forms" action="https://formspree.io/f/xzblbplr" method="POST">
                 <div>
                     <input class="input" type="text" placeholder="Name" id="name" required
